@@ -11,3 +11,5 @@ const functionName = (first number indicating start point/multiple value, second
 }
 
 Run the function to test it
+
+Take the two numbers provided to us and make a list off all numbers, from the first number given to the product of the first*last numbers provided, increasi

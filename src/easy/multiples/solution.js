@@ -1,10 +1,10 @@
 const numList = (num1, num2) => {
-    let factorialList = [];
+    let multipleList = [];
     for(let i = num1; i <= (num1 * num2); i += num1) {
-      factorialList.push(i)
+      multipleList.push(i)
     };
-    console.log("(", num1, ",", num2, ") =>", factorialList);
-    return factorialList;
+    console.log("(", num1, ",", num2, ") =>", multipleList);
+    return multipleList;
 };
   
 numList(7, 5);
